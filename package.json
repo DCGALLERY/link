@@ -1,0 +1,21 @@
+{
+  "name": "Short-link",
+  "description": "URL shortener.",
+  "scripts": {
+    "generate": "node ./scripts/generate.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dcgallery/link.git"
+  },
+  "keywords": [
+    "URL",
+    "shortener"
+  ],
+  "author": "LDC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dcgallery/link/issues"
+  },
+  "homepage": "https://github.com/dcgallery/link#readme"
+}
