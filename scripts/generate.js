@@ -20,8 +20,8 @@ function addUrl(target, shortName) {
   if(!shortName) {
     shortName = generateUrl(target);
   }
-  currentURLMap[`/short/${shortName}`] = target;
-  console.log(`${target} ==shorten=> https://ledinhcuong.com/short/${shortName}`);
+  currentURLMap[`/${shortName}`] = target;
+  console.log(`${target} ==shorten=> https://ledinhcuong.com/${shortName}`);
 }
 
 const URLs = process.argv.slice(2);
